@@ -2,10 +2,7 @@ package code.February23th.Demo02;
 
 import com.sun.source.tree.ArrayAccessTree;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Random;
+import java.util.*;
 
 public class Test {
     public static int add(int... arr){
@@ -31,5 +28,21 @@ public class Test {
             }
         });
         System.out.println(a);
+
+        HashMap<String, Integer> k = new HashMap<>();
+        k.put("陈航", 23);
+        k.put("李四", 24);
+        k.put("王五", 25);
+
+        Set<String> keys = k.keySet();
+        for(String key : keys){
+            System.out.println(k.get(key));
+        }
+
+        Set<Map.Entry<String, Integer>> entries = k.entrySet();
+        for(Map.Entry<String, Integer> tmp : entries){
+            System.out.println(tmp.getKey() + " " + tmp.getValue());
+        }
+
     }
 }
