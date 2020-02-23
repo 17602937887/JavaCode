@@ -1,8 +1,5 @@
 package code.February22th.Demo01;
 
-import com.mysql.cj.jdbc.result.UpdatableResultSet;
-
-import java.time.LocalDate;
 import java.util.Objects;
 
 public class Manager extends Employee {

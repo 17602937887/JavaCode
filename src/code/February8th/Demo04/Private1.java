@@ -12,7 +12,7 @@ public interface Private1 {
         show();
     }
 
-    void show(){
+    default void show(){
         System.out.println("AAA");
         System.out.println("BBB");
         System.out.println("CCC");

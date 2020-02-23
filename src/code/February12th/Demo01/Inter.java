@@ -26,7 +26,7 @@ public interface Inter {
     /**
      *  私有方法 抽取共同代码
      */
-    void D(){
+    default void D(){
         System.out.println("AAAA");
         System.out.println("BBBB");
     }

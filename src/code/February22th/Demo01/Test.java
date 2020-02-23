@@ -4,6 +4,12 @@ public class Test {
     public static void main(String[] args) {
         Manager a = new Manager("帅", 23, "陈航");
         Manager b = new Manager("帅", 23, "陈航");
+
+        System.out.println(a.equals(b));
+
+        a.setName(null);
+        b.setName(null);
+
         System.out.println(a.equals(b));
     }
 }
