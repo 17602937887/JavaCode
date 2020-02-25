@@ -44,5 +44,8 @@ public class Test {
             System.out.println(tmp.getKey() + " " + tmp.getValue());
         }
 
+
+        System.out.println("重地.hashCode() = " + "重地".hashCode());
+        System.out.println("通话.hashCode() = " + "通话".hashCode());
     }
 }
